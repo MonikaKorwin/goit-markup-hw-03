@@ -7,8 +7,43 @@
 body {
   font-family: var(--main-font);
 }
+h1
+h2
+h3
+h4
+h5
+h6 {
+  margin:0;
+  padding: 0;
+  }
+ul
+ol {
+  margin:0;
+  padding: 0;
+}
+p{
+  margin:0;
+  padding: 0;
+}
+img{
+  display: block;
+  }
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
 
 /* =============HEADER INDEX.HTML============ */
+
+.header .container{
+display: flex;
+align-items: center;
+}
 
 .navigation-link,
 .address-logo {
@@ -16,16 +51,35 @@ body {
 }
 .navigation-list {
   list-style: none;
+  display: flex;
+  align-items: center;
+  }
+ .navigation-link{
+   display: flex;
+       padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
 }
-
 .navigation-list-item {
+  margin-right: 46px;
+  
+}
+.header .mail{
+  margin-left:auto;
+}
+.header .phone{
+  margin-left: 50px;
+}
+.navigation-list-item {
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
-}
+  }
+  
 .navigation-list-item:hover,
 .navigation-list-item:focus {
   color: var(--main-color);
@@ -47,8 +101,16 @@ body {
 .phone:hover,
 .phone:focus {
   color: var(--main-color);
+
 }
+
 /* =============/HEADER INDEX.HTML============ */
+
+
+
+
+
+
 /* =============MAIN INDEX.HTML============ */
 .hero {
   font-weight: 900;
@@ -118,6 +180,10 @@ body {
 
 /* =============/MAIN INDEX.HTML============ */
 
+
+
+
+
 /* =============FOOTER INDEX.HTML============ */
 .address {
   font-style: normal;
@@ -141,6 +207,10 @@ body {
 
 /* =============FOOTER INDEX.HTML============ */
 
+
+
+
+
 /* =============FOOTER PORTFOLIO.HTML============ */
 .navigation-list-item-portfolio {
 font-style: normal;
@@ -151,10 +221,6 @@ letter-spacing: 0.02em;
   color: var(--main-color);
   text-decoration: none;
 }
-
- 
-  
-
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -167,7 +233,6 @@ letter-spacing: 0.02em;
   border-radius: 4px;
   list-style:none;
 
-  
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
