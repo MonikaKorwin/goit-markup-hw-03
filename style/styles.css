@@ -29,6 +29,9 @@ img{
   display: block;
   }
 
+  * {
+  box-sizing: border-box;}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -41,10 +44,19 @@ img{
 /* =============HEADER INDEX.HTML============ */
 
 .header .container{
-display: flex;
-align-items: center;
-padding-top: 32px;
+  display: flex;
+  align-items: center;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
+  
 }
+.header {
+  display: flex;  
+  align-items: center;
+  height: 80px;
+  padding: 0px;
+}
+
 
 .navigation-link,
 .address-logo {
@@ -58,9 +70,9 @@ padding-top: 32px;
   }
  .navigation-link{
    display: flex;
-       padding-top: 24px;
+       /* padding-top: 24px;
     padding-bottom: 25px;
-    margin-right: 93px;
+    margin-right: 93px; */
 }
 .navigation-list-item {
   margin-right: 46px;
@@ -118,16 +130,26 @@ padding-top: 32px;
 
 
 .hero {
+  display: block;
+  box-sizing: border-box;
+  height: 600px; 
+      top: 80px;
+  border: 1px solid #000000;
+  font-family:var(--secondary-font)
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 363;
   /* or 136% */
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.06em;  
   color: #ffffff;
-  background: #2f303a;
+  background: #2f303a; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
+
+    
+
 
 .button {
   font-family: Roboto;
@@ -148,13 +170,18 @@ border-radius: 4px;
 display: inline-block;
 margin: 0 auto;  
 }
+
 .LOREM_IPSUM_ITEM {
+  display: flex;
+  flex-wrap: wrap;
   font-weight: bold;
   font-size: 14px;
   line-height: 11, 142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+
+
 }
 .LOREM_IPSUM_ITEM > p {
   font-style: normal;
@@ -163,6 +190,8 @@ margin: 0 auto;
   line-height: 1, 714;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 0;
+    margin-bottom: 20;
 }
 .what-we-do,
 .team {
@@ -173,15 +202,14 @@ margin: 0 auto;
   letter-spacing: 0.03em;
   color: #212121;
 }
-  .what-we-do_item{
-    display: block;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center
-    flex-wrap:wrap;
-  }
 
-
+.what-we-do{
+  display: flex;
+  flex-wrap: wrap;
+}
+.what-we-do .what-we-do_item{
+  display: block;
+}
 
 .team {
   background-color: #f5f4fa;
