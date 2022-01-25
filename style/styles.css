@@ -43,6 +43,7 @@ img{
 .header .container{
 display: flex;
 align-items: center;
+padding-top: 32px;
 }
 
 .navigation-link,
@@ -53,6 +54,7 @@ align-items: center;
   list-style: none;
   display: flex;
   align-items: center;
+  
   }
  .navigation-link{
    display: flex;
@@ -112,6 +114,9 @@ align-items: center;
 
 
 /* =============MAIN INDEX.HTML============ */
+
+
+
 .hero {
   font-weight: 900;
   font-size: 44px;
@@ -135,6 +140,13 @@ align-items: center;
   color: #ffffff;
   background: var(--main-color);
   cursor: pointer;
+  padding: 10px 41px 10px 42px;
+  width: 200px;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+display: inline-block;
+margin: 0 auto;  
 }
 .LOREM_IPSUM_ITEM {
   font-weight: bold;
@@ -161,6 +173,15 @@ align-items: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
+  .what-we-do_item{
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center
+    flex-wrap:wrap;
+  }
+
+
 
 .team {
   background-color: #f5f4fa;
