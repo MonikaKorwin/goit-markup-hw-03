@@ -171,7 +171,7 @@ display: inline-block;
 margin: 0 auto;  
 }
 
-.LOREM_IPSUM_ITEM {
+.LOREM_IPSUM {
   display: flex;
   flex-wrap: wrap;
   font-weight: bold;
@@ -207,8 +207,9 @@ margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-.what-we-do .what-we-do_item{
+.what-we-do {
   display: block;
+  
 }
 
 .team {
