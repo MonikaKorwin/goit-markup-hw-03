@@ -54,12 +54,20 @@ margin-right: 5.81%;
 padding-top: 24px;
 padding-bottom: 25px;
 }
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: beaside;
+  align-items: center;
+  }
+
 .navigation-list-item { 
 margin-right: 34.5px ;
 }
 
 .phone{
-margin-left: 78.93%;
+margin-left: 50px;
 width: 110px;
 height: 16px;
 left: 78.93%;
@@ -67,53 +75,15 @@ top: 32px;
 }
 .mail{
   width: 135px;
-   margin-left: 23.18%;
+  margin-left: 23.18%;
   top: 32px;
   }
-
-/* =============END-THE-HEADLINE============ */
-
-/* .header .container{
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-   */
- 
-/* .header {
-  display: flex;  
-  align-items: center;
-  height: 80px;
-  padding: 0px;
-} */
-
 
 .navigation-link,
 .address-logo {
   text-decoration: none;
 }
-.navigation-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: beaside;
-  align-items: center;
-  
-  }
- /* .navigation-link{
-   display: flex;
-     padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 93px; 
-} */
 
-}
-.header .mail{
-  margin-left:auto;
-}
-.header .phone{
-  margin-left: 50px;
-}
 .navigation-list-item {
   
   font-weight: 500;
@@ -145,110 +115,169 @@ top: 32px;
 .phone:hover,
 .phone:focus {
   color: var(--main-color);
-
 }
+/* =============END-THE-HEADLINE============ */
 
-/* =============/HEADER INDEX.HTML============ */
-
-
-
-
-
-
-/* =============MAIN INDEX.HTML============ */
-
-
+/* =============hero-efektywne-rozwiązania-dla-waszego-biznesu============ */
 
 .hero {
-  display: block;
-  box-sizing: border-box;
   height: 600px; 
-      top: 80px;
+  top: 80px;
+  left: 0px;
   border: 1px solid #000000;
-  font-family:var(--secondary-font)
+  background: #2f303a; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ .hero-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+.main-tittle {
+width: 696px;
+height: 120px;
+position: absolute;
+top:280px;
+ font-family:var(--main-font)
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 363;
-  /* or 136% */
+  line-height: 1.363;
   text-align: center;
   letter-spacing: 0.06em;  
   color: #ffffff;
-  background: #2f303a; 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
 }
-
     
-
-
 .button {
-  font-family: Roboto;
+  position: absolute;
+  top:430px;
+  width: 200px;
+  height: 50px;
+  
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: var(--main-color);
   cursor: pointer;
-  padding: 10px 41px 10px 42px;
-  width: 200px;
-
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-display: inline-block;
-margin: 0 auto;  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
+/* =============hero-efektywne-rozwiązania-dla-waszego-biznesu============ */
 
-.LOREM_IPSUM {
-  display: flex;
-  flex-wrap: wrap;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 11, 142;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+
+/* <!-- lorem-ipsum--> */
+.lorem-ipsum {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 161.25px;
+  top: 774px;
+  font-family: var(--main-font);
   color: #212121;
-
-
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  
+    
 }
-.LOREM_IPSUM_ITEM > p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1, 714;
-  letter-spacing: 0.03em;
-  color: #757575;
-  margin-top: 0;
-    margin-bottom: 20;
-}
-.what-we-do,
-.team {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1, 166;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.lorem-ipsum-item { 
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
-.what-we-do{
-  display: flex;
-  flex-wrap: wrap;
+.lorem-ipsum-item-p{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+text-transform: none;
+margin-top: 10px;
 }
-.what-we-do {
-  display: block;
+ .container-lorem-ipsum{
+   display: flex;  
+         
+ }  
+.lorem-ipsum-item{
+  flex-basis: 270px;
   
 }
+.lorem-ipsum-item:not(:last-child){
+  margin-right: 30px;
+}
+
+/* <!-- lorem-ipsum--> */
+
+
+
+
+/* <!-- What-we-do--> */
+
+.what-we-do{
+position: absolute;
+width: 352px;
+height: 42px;
+left: 624px;
+top: 969px;
+
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.1667;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.container-what-we-do{
+ display: flex; 
+}
+
+   
+}
+.what-we-do_item{
+flex-direction: row;
+}
+
+
+
+
+
+
+
+
+.team {
+  position: absolute;
+  top: 3000px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121; */
+}
+
+
+
 
 .team {
   background-color: #f5f4fa;
+  position: absolute;
+  top: 3000px;
 }
 .team_member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 187;
+  line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -266,10 +295,12 @@ margin: 0 auto;
 
 /* =============FOOTER INDEX.HTML============ */
 .address {
+  position: absolute;
+  top: 5000px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
   background-color: #2f303a;
@@ -279,7 +310,7 @@ margin: 0 auto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6); 
   text-decoration: none;
@@ -293,6 +324,8 @@ margin: 0 auto;
 
 /* =============FOOTER PORTFOLIO.HTML============ */
 .navigation-list-item-portfolio {
+  position: absolute;
+  top: 5000px;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -336,7 +369,7 @@ letter-spacing: 0.02em;
 .filers-examples > p {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: #757575;
@@ -347,10 +380,10 @@ letter-spacing: 0.02em;
 .web,
 .studio {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: var(--socondary-font);
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 192;
+  line-height: 1.192;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
@@ -361,10 +394,10 @@ letter-spacing: 0.02em;
 }
 .studio-footer {
     text-decoration: none;
-  font-family: Raleway;
+  font-family: var(--socondary-font);
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 192;
+  line-height: 1.192;
   /* identical to box height */
   letter-spacing: 0.03em;
       color: #FFFFFF;
