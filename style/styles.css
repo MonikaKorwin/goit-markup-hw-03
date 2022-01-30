@@ -7,7 +7,7 @@
 body {
   font-family: var(--main-font);
 }
-h1, h2, h3, h4, h5, h6, ul, ol, p 
+h1, h2, h3, h4, h5, h6, ul, ol, p
  {
   margin:0;
   padding: 0;
@@ -20,7 +20,7 @@ img{
   * {
   box-sizing: border-box;}
 
-   
+
 
 /* =============HEADLINE============ */
 
@@ -32,14 +32,14 @@ img{
 
   height: 80px;
   left: 0px;
-  top: 0px; 
+  top: 0px;
   background: #FFFFFF;
 }
 .navigation {
   display: flex;
   align-items: baseline;
   margin-left: 13.44%;
-  
+
 }
 .container{
   display: flex;
@@ -62,7 +62,7 @@ padding-bottom: 25px;
   align-items: center;
   }
 
-.navigation-list-item { 
+.navigation-list-item {
 margin-right: 34.5px ;
 }
 
@@ -85,7 +85,7 @@ top: 32px;
 }
 
 .navigation-list-item {
-  
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -93,7 +93,7 @@ top: 32px;
   color: #212121;
   text-decoration: none;
   }
-  
+
 .navigation-list-item:hover,
 .navigation-list-item:focus {
   color: var(--main-color);
@@ -121,11 +121,11 @@ top: 32px;
 /* =============hero-efektywne-rozwiązania-dla-waszego-biznesu============ */
 
 .hero {
-  height: 600px; 
+  height: 600px;
   top: 80px;
   left: 0px;
   border: 1px solid #000000;
-  background: #2f303a; 
+  background: #2f303a;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  }
  .hero-items{
@@ -144,16 +144,16 @@ top:280px;
   font-size: 44px;
   line-height: 1.363;
   text-align: center;
-  letter-spacing: 0.06em;  
+  letter-spacing: 0.06em;
   color: #ffffff;
 }
-    
+
 .button {
   position: absolute;
   top:430px;
   width: 200px;
   height: 50px;
-  
+
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
@@ -180,10 +180,10 @@ top:280px;
   font-family: var(--main-font);
   color: #212121;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  
-    
+
+
 }
-.lorem-ipsum-item { 
+.lorem-ipsum-item {
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -203,12 +203,12 @@ text-transform: none;
 margin-top: 10px;
 }
  .container-lorem-ipsum{
-   display: flex;  
-         
- }  
+   display: flex;
+
+ }
 .lorem-ipsum-item{
   flex-basis: 270px;
-  
+
 }
 .lorem-ipsum-item:not(:last-child){
   margin-right: 30px;
@@ -223,12 +223,14 @@ margin-top: 10px;
 
 .what-we-do{
 position: absolute;
-width: 352px;
-height: 42px;
-left: 624px;
+width: 1170px;
+height: 386px;
+left: 215px;
 top: 969px;
+}
 
-
+.what-we-do-tittle{
+margin-bottom: 50px;
 font-family: var(--main-font);
 font-style: normal;
 font-weight: bold;
@@ -236,94 +238,195 @@ font-size: 36px;
 line-height: 1.1667;
 text-align: center;
 letter-spacing: 0.03em;
+color: #212121
+}
+
+.container-what-we-do {
+ display: flex;
+}
+
+.what-we-do_item:not(:last-child){
+margin-right:30px;
+}
+/* <!-- end-What-we-do--> */
+
+/* <!-- our-team --> */
+.team {
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+background: #F5F4FA;
+}
+
+.team-tittle{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.667;
+text-align: center;
+letter-spacing: 0.03em;
 color: #212121;
-}
-.container-what-we-do{
- display: flex; 
-}
-
-   
-}
-.what-we-do_item{
-flex-direction: row;
+margin-top:94px;
+margin-bottom:50px;
 }
 
+.team-member-all{
+  display: flex;
+}
+.team-member{
 
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 
-
-
-
-
-
-.team {
-  position: absolute;
-  top: 3000px;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121; */
+}
+.team-member:not(:last-child){
+  margin-right:30px;
 }
 
-
-
-
-.team {
-  background-color: #f5f4fa;
-  position: absolute;
-  top: 3000px;
+.team-member-name {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+margin-top: 30px;
+margin-bottom: 10px;
 }
-.team_member {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.team_member > .p {
-  font-weight: normal;
-  color: #757575;
+.team-member-name-career{
+  /* position: realtive;
+width: 147px;
+height: 19px;
+left: 577px;
+top: 1954px; */
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+margin-top:10px;
+margin-bottom:30px;
+
 }
 
+/* <!-- end-the-our-team --> */
 /* =============/MAIN INDEX.HTML============ */
 
-
-
-
-
 /* =============FOOTER INDEX.HTML============ */
+
 .address {
-  position: absolute;
-  top: 5000px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: #2f303a;
-}
-.address-mail,
-.address-phone { 
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6); 
-  text-decoration: none;
+position: absolute;
+width: 1200px;
+height: 252px;
+top: 2097px;
+background: #2F303A;
 }
 
-/* =============FOOTER INDEX.HTML============ */
+.web,
+.studio {
+  Weight:700;
+  text-decoration: none;
+  font-family: var(--socondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  font-style: normal;
+}
+.address-logo{
+/* margin-top:60px; */
+ 
+position: relative;
+width: 145px;
+height: 31px;
+left: 215px;
+font-style: none;
+text-decoration: none;
+font:none;
+
+}
+.studio {
+  color: #000000;
+}
+.footer {
+  text-decoration: none;
+  font-family: var(--socondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+      color: #FFFFFF;
+
+}  
+
+
+
+
+
+
+
+
+
+
+.adress-street{
+color: #FFFFFF; 
+font-size: 14px;
+line-height: 1.714;
+/* or 171% */
+letter-spacing: 0.03em
+font-style: normal;
+font-weight: normal;
+font-family: var(--main-font);
+margin-left:215px;
+margin-top:20px;
+font-style: normal;
+
+}
+
+.address-mail,
+.address-phone {
+  font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+padding-top:9px;
+margin-left:215px;
+}
+
+
+}
+
+
+
+
+
+
 
 
 
 
 
 /* =============FOOTER PORTFOLIO.HTML============ */
-.navigation-list-item-portfolio {
+ .navigation-list-item-portfolio {
   position: absolute;
   top: 5000px;
 font-style: normal;
@@ -332,8 +435,8 @@ font-size: 14px;
 line-height: 1,142;
 letter-spacing: 0.02em;
   color: var(--main-color);
-  text-decoration: none;
-}
+  text-decoration: none; 
+ } 
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -344,19 +447,19 @@ letter-spacing: 0.02em;
   color: #212121;
   background-color: #f5f4fa;
   border-radius: 4px;
-  list-style:none;
+  list-style:none; */
 
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: #FFFFFF; 
-  background-color: var(--main-color);
+  color: #FFFFFF;
+  background-color: var(--main-color); */
 
 
-/* .filter:hover,
+.filter:hover,
 .filter:focus {
-  color: #ffffff; */
-}
+  color: #ffffff;
+} 
 .filers-examples {
   font-weight: bold;
   font-size: 18px;
@@ -373,34 +476,4 @@ letter-spacing: 0.02em;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-/* =============FOOTER PORTFOLIO.HTML============ */
-
-.web,
-.studio {
-  text-decoration: none;
-  font-family: var(--socondary-font);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.192;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
-
-.studio {
-  color: #000000;
-}
-.studio-footer {
-    text-decoration: none;
-  font-family: var(--socondary-font);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.192;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-      color: #FFFFFF;
-
-}
 }
